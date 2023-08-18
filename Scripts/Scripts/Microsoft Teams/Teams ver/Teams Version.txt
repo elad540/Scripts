@@ -1,0 +1,6 @@
+This PowerShell script retrieves and displays various system-related information:
+
+It prints the current date and time.
+Displaying the computer name and last boot time of the operating system.
+Displaying the OS Name and OS Version of the system using the systeminfo command.
+It reads the content of a JSON file containing Teams settings, converts it to an object, and displays only the 'Version' property.

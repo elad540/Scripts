@@ -1,0 +1,9 @@
+gpupdate /force
+
+manage-bde /status
+
+
+
+In the provided script, the CheckBitLockerStatus function is called twice in a row after updating the Group Policy settings,
+effectively checking the BitLocker status two times.
+This allows the user to verify the BitLocker status before and after the Group Policy update.
